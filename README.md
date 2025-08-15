@@ -83,7 +83,7 @@ To test the model on a new image:
 
 1. Clone this repository.
 2. Unzip and place the `fer2013.csv` in your project directory.
-3. Run the notebook (`FACE.ipynb`) or Python script.
+3. Run the file (`main.py`) or Python script.
 4. Train the model or load the pre-trained `.h5` model.
 5. Use the image prediction function for real-time emotion classification.
 
@@ -94,7 +94,7 @@ To test the model on a new image:
 
 ## 📂 Files
 
-* `FACE.ipynb` – Main Jupyter notebook with all code
+* `main.py` – Main Jupyter notebook with all code
 * `fer2013.csv` – Dataset file
 * `emotion_recognition_model.h5` – Trained model
 * `img.jpg` – Sample image for prediction
