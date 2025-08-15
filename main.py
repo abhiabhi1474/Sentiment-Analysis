@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
+from tensorflow.keras.models import load_model
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
@@ -79,9 +80,7 @@ plt.show()
 
 
 
-import cv2
-import numpy as np
-from tensorflow.keras.models import load_model
+
 
 # Load the trained model from .h5 file
 model = load_model('/content/emotion_recognition_model.h5')  # Replace with your .h5 file path
